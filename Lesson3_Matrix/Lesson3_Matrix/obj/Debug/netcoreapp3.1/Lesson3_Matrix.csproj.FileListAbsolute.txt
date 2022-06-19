@@ -1,0 +1,14 @@
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.exe
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.deps.json
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.runtimeconfig.json
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.runtimeconfig.dev.json
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.dll
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\bin\Debug\netcoreapp3.1\Lesson3_Matrix.pdb
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.csprojAssemblyReference.cache
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.AssemblyInfoInputs.cache
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.AssemblyInfo.cs
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.csproj.CoreCompileInputs.cache
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.dll
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.pdb
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson3_Matrix\obj\Debug\netcoreapp3.1\Lesson3_Matrix.genruntimeconfig.cache

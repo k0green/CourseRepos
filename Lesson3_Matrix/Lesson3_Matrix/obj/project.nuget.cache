@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XdvI+ZiViZSi6RvHYFNDA4L7BHz1wCItFbVWlY/h3OShpvBoqb3xCA+Fr7J1GBiws4NK7gSaxnNOjx5kzQzulg==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Egor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
