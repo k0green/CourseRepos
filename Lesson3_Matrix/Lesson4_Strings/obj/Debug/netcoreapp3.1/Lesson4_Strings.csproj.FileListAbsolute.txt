@@ -4,7 +4,6 @@ D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Less
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.runtimeconfig.dev.json
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.dll
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.pdb
-D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.csprojAssemblyReference.cache
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.AssemblyInfoInputs.cache
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.AssemblyInfo.cs
@@ -12,3 +11,4 @@ D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Less
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.dll
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.pdb
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.genruntimeconfig.cache
+D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.csproj.AssemblyReference.cache
