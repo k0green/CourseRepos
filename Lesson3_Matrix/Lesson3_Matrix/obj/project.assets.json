@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
+      "projectUniqueName": "C:\\Users\\Egor\\Source\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
       "projectName": "Lesson3_Matrix",
-      "projectPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
+      "projectPath": "C:\\Users\\Egor\\Source\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
       "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\obj\\",
+      "outputPath": "C:\\Users\\Egor\\Source\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Egor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,18 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

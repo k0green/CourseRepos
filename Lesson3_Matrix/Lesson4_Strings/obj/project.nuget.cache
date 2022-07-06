@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZBoaAB220oVheZ1X/UmztRCw08KdBLB7KhnLdJVMvFyalB65IfJGK53wfMwhfhB6J/Jah74QEocZ0tyGX/DXkw==",
+  "dgSpecHash": "dWiJ2TvurSVU71Gj91NlMOi3EGLFu1w+CAFGI3EJmDKW9yKVTjQ8HMvWmZiay6blNIdpK8OE2mhRkGXwrOrBDw==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Egor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Egor\\Source\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

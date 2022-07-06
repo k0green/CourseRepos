@@ -12,3 +12,17 @@ D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Less
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.dll
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.pdb
 D:\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.genruntimeconfig.cache
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.exe
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.deps.json
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.runtimeconfig.json
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.runtimeconfig.dev.json
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.dll
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\bin\Debug\netcoreapp3.1\Lesson4_Strings.pdb
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.csproj.AssemblyReference.cache
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.AssemblyInfoInputs.cache
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.AssemblyInfo.cs
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.csproj.CoreCompileInputs.cache
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.dll
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.pdb
+C:\Users\Egor\Source\Repos\CourseRepos\Lesson3_Matrix\Lesson4_Strings\obj\Debug\netcoreapp3.1\Lesson4_Strings.genruntimeconfig.cache
