@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
+      "projectUniqueName": "D:\\Local Repos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
       "projectName": "Lesson3_Matrix",
-      "projectPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
+      "projectPath": "D:\\Local Repos\\Lesson3_Matrix\\Lesson3_Matrix\\Lesson3_Matrix.csproj",
       "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson3_Matrix\\obj\\",
+      "outputPath": "D:\\Local Repos\\Lesson3_Matrix\\Lesson3_Matrix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Egor\\AppData\\Roaming\\NuGet\\NuGet.Config",

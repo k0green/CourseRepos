@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3_Matrix", "Lesson3_Matrix\Lesson3_Matrix.csproj", "{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8", "Lesson8\Lesson8.csproj", "{30B436E4-F43F-47D7-AC14-9AE0ACADE43C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B436E4-F43F-47D7-AC14-9AE0ACADE43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B436E4-F43F-47D7-AC14-9AE0ACADE43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B436E4-F43F-47D7-AC14-9AE0ACADE43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B436E4-F43F-47D7-AC14-9AE0ACADE43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
