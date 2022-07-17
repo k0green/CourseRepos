@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj": {}
+    "D:\\Local Repos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj": {
+    "D:\\Local Repos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
+        "projectUniqueName": "D:\\Local Repos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
         "projectName": "Lesson4_Strings",
-        "projectPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
+        "projectPath": "D:\\Local Repos\\Lesson3_Matrix\\Lesson4_Strings\\Lesson4_Strings.csproj",
         "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\CourseRepos\\Lesson3_Matrix\\Lesson4_Strings\\obj\\",
+        "outputPath": "D:\\Local Repos\\Lesson3_Matrix\\Lesson4_Strings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Egor\\AppData\\Roaming\\NuGet\\NuGet.Config",

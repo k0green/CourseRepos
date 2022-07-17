@@ -9,24 +9,32 @@ namespace Lesson8
     public class Vegetable
     {
 
-        private string Name { get; set; }
-        internal double Coast { get; set; }
-        private int Id { get; set; }
-        internal Vegetable(string name, double coast, int id)
+        public string Name { get; set; }
+        public double Coast { get; set; }
+        static int Id=0;
+        public Vegetable(string name, double coast)
         {
-            Name = name;
+            Name = name??"Udefined";
             Coast = coast;
-            Id= id;
         }
 
-        internal string GetName()
+        public Vegetable()
+        {
+        }
+
+        public string GetName()
         {
             return Name;
         }
 
         internal bool Print()
         {
-            Console.WriteLine($"Vegetable: {Name} coast: {Coast} id:{Id}");
+            Id++;
+            if (Name != null)
+            {
+                Console.WriteLine($"Vegetable: {Name} coast: {Coast} id:{Id}");
+            }
+            else { Console.WriteLine($"Vegetable: Undefined coast: {Coast} id:{Id}"); }
             return true;
         }
     }

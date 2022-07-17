@@ -9,24 +9,39 @@ namespace Lesson8
 
     public class Inventory
     {
-        Vegetable onion = new Vegetable("onion", 0.67, 1);
-        Vegetable cucumber = new Vegetable("cucumber", 2.74, 2);
-        Vegetable tomato = new Vegetable("tomato", 4.09, 3);
-        Vegetable potato = new Vegetable("potato", 0.99, 4);
-        Vegetable pumpkin = new Vegetable("pumpkin", 1.23, 5);
-        private double Summ { get; set; }
-        private Vegetable[] Vegetable { get; set; }
+        Vegetable[] Vegetables;
         public Inventory(Vegetable[] vegetable)
         {
-            Vegetable = vegetable;
+            Vegetables = vegetable;
         }
-
+        public Vegetable this[int index]
+        {
+            get
+            {
+                return Vegetables[index];
+            }
+            set
+            {
+                Vegetables[index] = value;
+            }
+        }
+        public Vegetable this[string name]
+        {
+            get
+            {
+                return this[name];
+            }
+            set
+            {
+                this[name] = value;
+            }
+        }
         public void Price()
         {
             Vegetable[] arr = new Vegetable[100];
-            for (int i = 0; i < Vegetable.Length; i++)
+            for (int i = 0; i < Vegetables.Length; i++)
             {
-                Console.WriteLine(Vegetable[i].Print());
+                Console.WriteLine(Vegetables[i].Print());
             }
             bool check = false;
             int NumOfMass = 0;
@@ -38,23 +53,23 @@ namespace Lesson8
                 switch (num)
                 {
                     case 1:
-                        arr[NumOfMass] = onion;
+                        arr[NumOfMass] = Vegetables[0];
                         SizeMass += 1;
                         break;
                     case 2:
-                        arr[NumOfMass] = cucumber;
+                        arr[NumOfMass] = Vegetables[1];
                         SizeMass += 1;
                         break;
                     case 3:
-                        arr[NumOfMass] = tomato;
+                        arr[NumOfMass] = Vegetables[2];
                         SizeMass += 1;
                         break;
                     case 4:
-                        arr[NumOfMass] = potato;
+                        arr[NumOfMass] = Vegetables[3];
                         SizeMass += 1;
                         break;
                     case 5:
-                        arr[NumOfMass] = pumpkin;
+                        arr[NumOfMass] = Vegetables[4];
                         SizeMass += 1;
                         break;
                     default:
@@ -63,7 +78,7 @@ namespace Lesson8
                 }
                 Console.WriteLine("Do you want to continue(yes/no)?");//проверка на желание повторить
                 string answer = Console.ReadLine();
-                if (answer == "yes")
+                if (answer == "yes" && answer != null)
                 {
                     check = true;
                 }

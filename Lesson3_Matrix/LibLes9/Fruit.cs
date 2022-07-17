@@ -12,16 +12,20 @@ namespace Lesson8
         public string Name { get; set; }
         internal double Coast { get; set; }
         private int Id { get; set; }
-        internal Fruit(string name, double coast, int id):this()
+        public Fruit(string name, double coast, int id):this()
         {
-            Name = name;
+            Name = name??"Udefined";
             Coast = coast;
             Id = id;
         }
 
         internal bool Display()
         {
-            Console.WriteLine($"Fruit: {Name} coast: {Coast} id:{Id}");
+            if (Name != null)
+            {
+                Console.WriteLine($"Fruit: {Name} coast: {Coast} id:{Id}");
+            }
+            else { Console.WriteLine($"Fruit: Undefined coast: {Coast} id:{Id}"); }
             return true;
         }
     }
