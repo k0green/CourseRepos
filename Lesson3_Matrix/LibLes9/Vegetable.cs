@@ -10,21 +10,21 @@ namespace Lesson8
     {
 
         private string Name { get; set; }
-        public double Coast { get; set; }
+        internal double Coast { get; set; }
         private int Id { get; set; }
-        public Vegetable(string name, double coast, int id)
+        internal Vegetable(string name, double coast, int id)
         {
             Name = name;
             Coast = coast;
             Id= id;
         }
 
-        public string GetName()
+        internal string GetName()
         {
             return Name;
         }
 
-        public bool Print()
+        internal bool Print()
         {
             Console.WriteLine($"Vegetable: {Name} coast: {Coast} id:{Id}");
             return true;

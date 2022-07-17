@@ -12,14 +12,14 @@ namespace Lesson8
         public string Name { get; set; }
         internal double Coast { get; set; }
         private int Id { get; set; }
-        public Fruit(string name, double coast, int id):this()
+        internal Fruit(string name, double coast, int id):this()
         {
             Name = name;
             Coast = coast;
             Id = id;
         }
 
-        public bool Display()
+        internal bool Display()
         {
             Console.WriteLine($"Fruit: {Name} coast: {Coast} id:{Id}");
             return true;
