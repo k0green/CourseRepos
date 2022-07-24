@@ -1,4 +1,5 @@
 ﻿using Lesson8;
+
 Vegetable onion = new Vegetable("onion", 0.67, 1);
 Vegetable cucumber = new Vegetable("cucumber", 2.74, 2);
 Vegetable tomato = new Vegetable("tomato", 4.09, 3);
@@ -7,6 +8,7 @@ Vegetable pumpkin = new Vegetable("pumpkin", 1.23, 5);
 Vegetable[] mass = new Vegetable[5] { onion, cucumber, tomato, potato, pumpkin };
 Inventory inventory = new Inventory(mass);
 inventory.Price();
+
 
 Console.WriteLine("\nFruits\n");
 
