@@ -19,7 +19,11 @@ namespace Lesson14_ManageCompany.Models
         public override int Salary { get { return BaseSalary * 2; } set => BaseSalary=value; }
         public override string Display()
         {
-            return ($"Name: {Name}, Position: {Position}, Salary {Salary}");
+            return ($"i'm a Salaried Employee Name: {Name}, Position: {Position}, Salary {Salary}");
+        }
+        public static implicit operator SalariedEmployee(HourlyEmployee he)
+        {
+            return new SalariedEmployee(he.Name, he.Position, he.BaseSalary);
         }
     }
 }

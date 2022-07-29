@@ -2,7 +2,7 @@
 using Lesson14_ManageCompany.Enums;
 using Lesson14_ManageCompany.Constants;
 
-var registry = new Company();
+var company = new Company();
 
 while (true)
 {
@@ -26,25 +26,28 @@ while (true)
             switch (employeeType)
             {
                 case EmployeeType.HourluyEmployee:
-                    registry.Add(new HourlyEmployee("Jame", "Actor", 300));
+                    company.Add(new HourlyEmployee("Jame", "Actor", 300));
                     break;
                 case EmployeeType.SalariedEmployee:
-                    registry.Add(new SalariedEmployee("Mike", "Accictan", 280));
+                    company.Add(new SalariedEmployee("Mike", "Accictan", 280));
                     break;
                 case EmployeeType.Manager:
-                    registry.Add(new Manager("Kal", "Deputy Director", 710));
+                    company.Add(new Manager("Kal", "Deputy Director", 710));
                     break;
                 case EmployeeType.Executive:
-                    registry.Add(new Executive("Jorge", "CEO", 2134));
+                    company.Add(new Executive("Jorge", "CEO", 2134));
                     break;
             }
 
             break;
         case OperationType.Fire:
-            registry.FireSomeone();
+            company.FireSomeone();
             break;
         case OperationType.ShowAll:
-            registry.PrintAll();
+            company.PrintAll();
+            break;
+        case OperationType.Promotion:
+            company.PromotionSmd();
             break;
     }
 }

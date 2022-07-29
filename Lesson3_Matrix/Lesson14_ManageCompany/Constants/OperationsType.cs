@@ -8,7 +8,8 @@ namespace Lesson14_ManageCompany.Constants
         {
             { OperationType.Add, "Add new employee" },
             { OperationType.ShowAll, "Show all employees" },
-            { OperationType.Fire, "Fire someone" }
+            { OperationType.Fire, "Fire someone" },
+            {OperationType.Promotion, "Promotion smd" }
         };
     }
 }

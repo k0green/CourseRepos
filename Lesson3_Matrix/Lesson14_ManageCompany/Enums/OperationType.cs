@@ -11,5 +11,6 @@ namespace Lesson14_ManageCompany.Enums
         Add = 1,
         ShowAll = 2,
         Fire = 3,
+        Promotion=4,
     }
 }
