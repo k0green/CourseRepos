@@ -7,7 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3_Matrix", "Lesson3_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
 EndProject
-
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
