@@ -7,7 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3_Matrix", "Lesson3_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson12_Virtual", "C:\Users\Egor\Desktop\EmpoyeesRegisterConsoleApp\Lesson12_Virtual.csproj", "{218655AF-1FF7-467D-AFA9-863F77C01583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +22,7 @@ Global
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.Build.0 = Release|Any CPU
-		{218655AF-1FF7-467D-AFA9-863F77C01583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{218655AF-1FF7-467D-AFA9-863F77C01583}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{218655AF-1FF7-467D-AFA9-863F77C01583}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{218655AF-1FF7-467D-AFA9-863F77C01583}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
