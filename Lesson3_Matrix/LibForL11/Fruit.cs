@@ -9,18 +9,32 @@ namespace Lesson8
     public struct Fruit
     {
 
-        public string Name { get; set; }
-        internal double Coast { get; set; }
-        private int Id { get; set; }
-        public Fruit(string name, double coast, int id):this()
+        public string Name
         {
-            Name = name??"Udefined";
+            get//add verification
+            {
+                if (Name != null)
+                {
+                    return Name;
+                }
+                else { return "Error"; }
+            }
+            set
+            {
+                Name = value;
+            }
+        }
+        internal double Coast { get; set; }
+        static int Id { get; set; }
+        public Fruit(string name, double coast) : this()
+        {
+            Name = name;
             Coast = coast;
-            Id = id;
         }
 
         internal bool Display()
         {
+            Id++;
             if (Name != null)
             {
                 Console.WriteLine($"Fruit: {Name} coast: {Coast} id:{Id}");

@@ -9,7 +9,7 @@ namespace Lesson8
     public struct Invent
     {
         private double Summ { get; set; }
-        public Fruit[] Fruits{ get; set; }
+        public Fruit[] Fruits { get; set; }
         public Invent(Fruit[] fruit) : this()
         {
             Fruits = fruit;
@@ -29,7 +29,11 @@ namespace Lesson8
         {
             get
             {
-                return this[name];
+                foreach (var fruit in Fruits)
+                {
+                    if (fruit.Name == name) return fruit;
+                }
+                throw new Exception("Error");
             }
             set
             {
@@ -78,7 +82,7 @@ namespace Lesson8
                 }
                 Console.WriteLine("Do you want to continue(yes/no)?");//проверка на желание повторить
                 string answer = Console.ReadLine();
-                if (answer == "yes" && answer!=null)
+                if (answer == "yes" && answer != null)
                 {
                     check = true;
                 }

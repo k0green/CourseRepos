@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson8
 {
@@ -25,11 +21,16 @@ namespace Lesson8
                 Vegetables[index] = value;
             }
         }
-        public Vegetable this[string name]
+
+        public Vegetable this[string name]//change idexer
         {
             get
             {
-                return this[name];
+                foreach (var vegetable in Vegetables)
+                {
+                    if (vegetable.Name == name) return vegetable;
+                }
+                throw new Exception("Error");
             }
             set
             {
