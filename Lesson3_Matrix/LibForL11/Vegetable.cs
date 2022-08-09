@@ -1,20 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson8
 {
     public class Vegetable
     {
 
-        public string Name { get; set; }
+        public string Name
+        {
+            get//add verification
+            {
+                if (Name != null)
+                {
+                    return Name;
+                }
+                else { return "Error"; }
+            }
+            set
+            {
+                Name = value;
+            }
+        }
         public double Coast { get; set; }
-        static int Id=0;
+        static int Id = 0;
         public Vegetable(string name, double coast)
         {
-            Name = name??"Udefined";
+            Name = name ?? "Udefined";
             Coast = coast;
         }
 

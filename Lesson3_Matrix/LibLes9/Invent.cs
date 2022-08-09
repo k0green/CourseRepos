@@ -8,24 +8,40 @@ namespace Lesson8
 {
     public struct Invent
     {
-        private static Fruit apple = new Fruit("apple", 0.67, 6);
-        private static Fruit pear = new Fruit("pear", 2.54, 7);
-        private static Fruit banana = new Fruit("banana", 1.39, 8);
-        private static Fruit coconut = new Fruit("coconut", 6.68, 9);
-        private static Fruit watermelon = new Fruit("watermelon", 1, 10);
         private double Summ { get; set; }
-        public Fruit[] Fruit { get; set; }
+        public Fruit[] Fruits{ get; set; }
         public Invent(Fruit[] fruit) : this()
         {
-            Fruit = fruit;
+            Fruits = fruit;
         }
-
+        public Fruit this[int index]
+        {
+            get
+            {
+                return Fruits[index];
+            }
+            set
+            {
+                Fruits[index] = value;
+            }
+        }
+        public Fruit this[string name]
+        {
+            get
+            {
+                return this[name];
+            }
+            set
+            {
+                this[name] = value;
+            }
+        }
         public void Result()
         {
             Fruit[] arr = new Fruit[100];
-            for (int i = 0; i < Fruit.Length; i++)
+            for (int i = 0; i < Fruits.Length; i++)
             {
-                Console.WriteLine(Fruit[i].Display());
+                Console.WriteLine(Fruits[i].Display());
             }
             bool check = false;
             int NumOfMass = 0;
@@ -37,23 +53,23 @@ namespace Lesson8
                 switch (num)
                 {
                     case 1:
-                        arr[NumOfMass] = apple;
+                        arr[NumOfMass] = Fruits[0];
                         SizeMass += 1;
                         break;
                     case 2:
-                        arr[NumOfMass] = pear;
+                        arr[NumOfMass] = Fruits[1];
                         SizeMass += 1;
                         break;
                     case 3:
-                        arr[NumOfMass] = banana;
+                        arr[NumOfMass] = Fruits[2];
                         SizeMass += 1;
                         break;
                     case 4:
-                        arr[NumOfMass] = coconut;
+                        arr[NumOfMass] = Fruits[3];
                         SizeMass += 1;
                         break;
                     case 5:
-                        arr[NumOfMass] = watermelon;
+                        arr[NumOfMass] = Fruits[4];
                         SizeMass += 1;
                         break;
                     default:
@@ -62,7 +78,7 @@ namespace Lesson8
                 }
                 Console.WriteLine("Do you want to continue(yes/no)?");//проверка на желание повторить
                 string answer = Console.ReadLine();
-                if (answer == "yes")
+                if (answer == "yes" && answer!=null)
                 {
                     check = true;
                 }

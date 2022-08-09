@@ -6,42 +6,46 @@ using System.Threading.Tasks;
 
 namespace Lesson8
 {
-
-    public class Inventory
+    public struct Invent
     {
-        Vegetable[] Vegetables;
-        public Inventory(Vegetable[] vegetable)
+        private double Summ { get; set; }
+        public Fruit[] Fruits { get; set; }
+        public Invent(Fruit[] fruit) : this()
         {
-            Vegetables = vegetable;
+            Fruits = fruit;
         }
-        public Vegetable this[int index]
+        public Fruit this[int index]
         {
             get
             {
-                return Vegetables[index];
+                return Fruits[index];
             }
             set
             {
-                Vegetables[index] = value;
+                Fruits[index] = value;
             }
         }
-        public Vegetable this[string name]
+        public Fruit this[string name]
         {
             get
             {
-                return this[name];
+                foreach (var fruit in Fruits)
+                {
+                    if (fruit.Name == name) return fruit;
+                }
+                throw new Exception("Error");
             }
             set
             {
                 this[name] = value;
             }
         }
-        public void Price()
+        public void Result()
         {
-            Vegetable[] arr = new Vegetable[100];
-            for (int i = 0; i < Vegetables.Length; i++)
+            Fruit[] arr = new Fruit[100];
+            for (int i = 0; i < Fruits.Length; i++)
             {
-                Console.WriteLine(Vegetables[i].Print());
+                Console.WriteLine(Fruits[i].Display());
             }
             bool check = false;
             int NumOfMass = 0;
@@ -53,23 +57,23 @@ namespace Lesson8
                 switch (num)
                 {
                     case 1:
-                        arr[NumOfMass] = Vegetables[0];
+                        arr[NumOfMass] = Fruits[0];
                         SizeMass += 1;
                         break;
                     case 2:
-                        arr[NumOfMass] = Vegetables[1];
+                        arr[NumOfMass] = Fruits[1];
                         SizeMass += 1;
                         break;
                     case 3:
-                        arr[NumOfMass] = Vegetables[2];
+                        arr[NumOfMass] = Fruits[2];
                         SizeMass += 1;
                         break;
                     case 4:
-                        arr[NumOfMass] = Vegetables[3];
+                        arr[NumOfMass] = Fruits[3];
                         SizeMass += 1;
                         break;
                     case 5:
-                        arr[NumOfMass] = Vegetables[4];
+                        arr[NumOfMass] = Fruits[4];
                         SizeMass += 1;
                         break;
                     default:
@@ -90,7 +94,7 @@ namespace Lesson8
             } while (check == true);
             for (int i = 0; i < SizeMass; i++)
             {
-                Console.WriteLine(arr[i].Print());
+                Console.WriteLine(arr[i].Display());
             }
             double sum = 0;
             for (int i = 0; i < SizeMass; i++)
@@ -99,6 +103,5 @@ namespace Lesson8
             }
             Console.WriteLine(sum);
         }
-
     }
 }
