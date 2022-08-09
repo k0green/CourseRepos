@@ -1,15 +1,5 @@
 
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson12_FamilyTree", "..\..\Reposit\Lesson3_Matrix\Lesson12_FamilyTree\Lesson12_FamilyTree.csproj", "{10E27110-AF22-4C1F-A1F7-669A21EAC998}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson12_Override", "..\..\Reposit\Lesson3_Matrix\Lesson12_Override\Lesson12_Override.csproj", "{08A060FB-FD93-442E-AE83-7F0AC7FCA335}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson14_ManageCompany", "..\..\Reposit\Lesson3_Matrix\Lesson14_ManageCompany\Lesson14_ManageCompany.csproj", "{D81D14D3-9F0B-41E7-BBC8-531BDF2322F1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson11", "Lesson11\Lesson11.csproj", "{D4CCF6D0-BC0E-4362-94CD-3A4D0CFFF5F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibForL11", "LibForL11\LibForL11.csproj", "{D5B450BE-D36B-4788-8FEE-7A12A283D45D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
