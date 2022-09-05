@@ -66,6 +66,28 @@ namespace Lesson19.Controllers
             return View();
         }
         [HttpGet]
+        public IActionResult EditCar()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult EditCar(string editmodel, string type, string company, string model, string id, int year)
+        {
+
+            foreach (var c in cars)
+            {
+                if (c.Model == editmodel)
+                {
+                    c.Id = id;
+                    c.Company = company;
+                    c.Model = model;
+                    c.Type = type;
+                    c.Year = year;
+                }
+            }
+            return View();
+        }
+        [HttpGet]
         public IActionResult DeleteCar()
         {
             return View();
