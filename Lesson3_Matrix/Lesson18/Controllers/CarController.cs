@@ -44,18 +44,33 @@ namespace Lesson18.Controllers
         {
             cars.Add(new Car
             {
-                Id = car.Id,    
+                Id = car.Id,
                 Company = car.Company,
                 Model = car.Model,
-                Type=car.Type,
-                Year=car.Year
+                Type = car.Type,
+                Year = car.Year
             });
+        }
+        [HttpPost("{model}")]
+        public async Task EditCar([FromBody] Car car, string model)
+        {
+            foreach (var c in cars)
+            {
+                if (c.Model==model)
+                {
+                    c.Id = car.Id;
+                    c.Company = car.Company;
+                    c.Model = car.Model;
+                    c.Type = car.Type;
+                    c.Year = car.Year;
+                }
+            }
         }
         [HttpDelete("{model}")]
         public async Task Delete(string model)
         {
-            cars=cars.Where(car=>car.Model!=model).ToList();
+            cars = cars.Where(car => car.Model != model).ToList();
         }
-        
+
     }
 }
