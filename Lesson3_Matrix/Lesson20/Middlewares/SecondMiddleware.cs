@@ -17,7 +17,7 @@ namespace Lesson20.Middlewares
                 var token = context.Request.Headers.TryGetValue("token", out var tokens);
                 if (string.IsNullOrEmpty(tokens))
                 {
-                    throw new CustomExeption2("token is invalid");
+                    throw new PasswordCheckExeption("token is invalid");
                 }
                 else
                 {
@@ -25,7 +25,7 @@ namespace Lesson20.Middlewares
                     return;
                 }
             }
-            catch(CustomExeption2 ex2)
+            catch(PasswordCheckExeption ex2)
             {
                 await context.Response.WriteAsync($"Error: {ex2.Message}");
             }

@@ -1,4 +1,5 @@
-﻿using Lesson20.Models;
+﻿using Lesson20.ExeptionClasses;
+using Lesson20.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -20,9 +21,31 @@ namespace Lesson20.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+                return View();
         }
+        public string Check()
+        {
+            try
+            {
+                int i = 8;
+                int m = 0;
+                int r;
+                if (m != 0)
+                {
+                    r = i / m;
+                }
+                else
+                {
+                    throw new GeneralExeption("DivideByZero");
+                }
 
+                return r.ToString();
+            }
+            catch (GeneralExeption ex1)
+            {
+                return $"{ex1.Message}";
+            }
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
