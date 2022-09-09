@@ -1,36 +1,37 @@
 ﻿using Lesson23;
 
-var context = new autoparkContext();
-context.Cars
-    .Select(x => $"{x.Number} {x.Model} {x.Id} {(x.Owner == null ? "[empty]" : x.Owner.Surname)} {(x.Owner == null ? "[empty]" : x.Owner.Name)}")
-    .ToList()
-    .ForEach(x => Console.WriteLine(x));
+var operat = new Operations();
 
-Car toyota = new Car();
-toyota.Number = "1122-TT7";
-toyota.Model = "Toyota Camry";
-toyota.OwnerId = 1;
+Dictionary<OperationType, string> operations = new Dictionary<OperationType, string>
+{
+    {OperationType.PrintAll, "Show all car" },
+    {OperationType.Add, "Add new car" },
+    {OperationType.Editing, "Edit car" },
+    {OperationType.Delete, "Delete car" }
 
-Car Chevrolet = new Car();
-Chevrolet.Number = "0000-OO7";
-Chevrolet.Model = "Chevrolet Corvett";
-Chevrolet.OwnerId = 5;
+};
 
-Car car = context.Cars.FirstOrDefault();
+while (true)
+{
+    foreach (var o in operations)
+    {
+        Console.WriteLine($"Press ({(int)o.Key}) to ({o.Value})");
+    }
+    OperationType operation = (OperationType)int.Parse(Console.ReadLine());
 
-context.Cars.Add(toyota);
-context.SaveChanges();
-Console.WriteLine("--------------------------------------------------------");
-context.Cars
-    .Select(x => $"{x.Number} {x.Id} {(x.Owner == null ? "[empty]" : x.Owner.Surname)} {(x.Owner == null ? "[empty]" : x.Owner.Name)}")
-    .ToList()
-    .ForEach(x => Console.WriteLine(x));
-
-car.Number = Chevrolet.Number;
-car.Model = Chevrolet.Model;
-context.SaveChanges();
-Console.WriteLine("--------------------------------------------------------");
-context.Cars
-    .Select(x => $"{x.Number} {x.Id} {(x.Owner == null ? "[empty]" : x.Owner.Surname)} {(x.Owner == null ? "[empty]" : x.Owner.Name)}")
-    .ToList()
-    .ForEach(x => Console.WriteLine(x));
+    switch (operation)
+    {
+        case OperationType.Add:
+            operat.Add();
+            break;
+        case OperationType.PrintAll:
+            operat.PrintAll();
+            break;
+        case OperationType.Editing:
+                operat.Edit();
+            break;
+        case OperationType.Delete:
+            operat.Delete();
+            break;
+    }
+}
