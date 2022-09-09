@@ -29,6 +29,7 @@
             Console.WriteLine("Enter car id to edit");
             int id = Convert.ToInt32(Console.ReadLine());
             Car car = context.Cars.FirstOrDefault(x => x.Id == id);
+            context.Cars.Remove(car);
             car=car.Fill();
             context.Cars.Update(car);
             await context.SaveChangesAsync();

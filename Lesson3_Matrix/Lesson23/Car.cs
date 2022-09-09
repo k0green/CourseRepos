@@ -22,6 +22,8 @@ namespace Lesson23
         public Car Fill()
         {
             Car car = new Car();
+            Console.WriteLine("Enter car id");
+            car.Id = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter car model");
             car.Model = Console.ReadLine();
             Console.WriteLine("Enter car number in format 1111-AA1");
