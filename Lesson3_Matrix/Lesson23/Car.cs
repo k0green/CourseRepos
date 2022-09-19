@@ -17,5 +17,20 @@ namespace Lesson23
 
         public virtual Driver? Owner { get; set; }
         public virtual ICollection<Garage> Garages { get; set; }
+
+
+        public Car Fill()
+        {
+            Car car = new Car();
+            Console.WriteLine("Enter car id");
+            car.Id = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter car model");
+            car.Model = Console.ReadLine();
+            Console.WriteLine("Enter car number in format 1111-AA1");
+            car.Number = Console.ReadLine();
+            Console.WriteLine("Enter owner's id");
+            car.OwnerId = Convert.ToInt32(Console.ReadLine());
+            return car;
+        }
     }
 }
