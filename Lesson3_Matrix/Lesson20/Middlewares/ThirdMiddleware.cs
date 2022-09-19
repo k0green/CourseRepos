@@ -16,7 +16,7 @@ namespace Lesson20.Middlewares
             {
                 await _next(context);
             }
-            catch(CustomExeption3 ex3 )
+            catch(GeneralExeption ex3 )
             {
                 context.Response.StatusCode = 500;
                 await context.Response.WriteAsync(ex3.Message);

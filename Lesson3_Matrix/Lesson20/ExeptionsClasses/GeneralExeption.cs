@@ -1,8 +1,8 @@
 ﻿namespace Lesson20.ExeptionClasses
 {
-    public class CustomExeption3:Exception
+    public class GeneralExeption:Exception
     {
-        public CustomExeption3(string msg) : base(msg)
+        public GeneralExeption(string msg) : base(msg)
         {
             msg = "Server error";
         }

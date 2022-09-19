@@ -27,7 +27,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.UseMiddleware<FirstMiddleware>();
-app.UseMiddleware<SecondMiddleware>();
+//app.UseMiddleware<SecondMiddleware>();
 app.UseMiddleware<ThirdMiddleware>();
 
 app.Run();

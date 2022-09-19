@@ -13,16 +13,16 @@ namespace Lesson20.Middlewares
         {
             try
             {
-                if(context.Request.Path== "/Home/AddCar"|| context.Request.Path == "/Home/DeleteCar" || context.Request.Path == "/Home")
+                if(context.Request.Path== "/Home" || context.Request.Path == "/Home/Privacy" || context.Request.Path == "/Home/Check")
                 {
                     await _next(context);
                 }
                 else
                 {
-                    throw new CustomExeption1("Path is empty");
+                    throw new PathCheckExeption("Path is empty");
                 }
             }
-            catch(CustomExeption1 ex1)
+            catch(PathCheckExeption ex1)
             {
                 await context.Response.WriteAsync($"Error: {ex1.Message}");
             }
