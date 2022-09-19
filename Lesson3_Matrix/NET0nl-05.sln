@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
@@ -8,6 +8,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson18", "Lesson18\Lesson18.csproj", "{E294A9F1-A26F-45D2-9ACC-3A72DA432358}"
+=======
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,3 +36,4 @@ Global
 		SolutionGuid = {9905A5F2-469C-4521-B951-8699ED2D5F5B}
 	EndGlobalSection
 EndGlobal
+=======
