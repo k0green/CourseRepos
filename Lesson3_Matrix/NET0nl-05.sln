@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3_Matrix", "Lesson3_Matrix\Lesson3_Matrix.csproj", "{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4_Strings", "Lesson4_Strings\Lesson4_Strings.csproj", "{DB16A346-0023-4D73-A4B6-8D3F5CC47044}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson32", "Lesson32\Lesson32.csproj", "{59BB5F02-9CCB-49C6-8734-323716985AA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60A5D472-A9BA-406E-A9D8-CA65BDBF5CCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB16A346-0023-4D73-A4B6-8D3F5CC47044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BB5F02-9CCB-49C6-8734-323716985AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BB5F02-9CCB-49C6-8734-323716985AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BB5F02-9CCB-49C6-8734-323716985AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BB5F02-9CCB-49C6-8734-323716985AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
