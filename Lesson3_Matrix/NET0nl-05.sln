@@ -1,10 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32616.157
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsParkDb", "C:\Users\Egor\Desktop\CarsPark\CarsParkDb\CarsParkDb.csproj", "{9A4F4AA2-AC26-40FB-9593-0A6C4BC4C451}"
-EndProject
 
 EndProject
 Global
